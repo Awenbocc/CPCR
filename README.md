@@ -22,4 +22,4 @@ python pre-train/main.py \
 ```
 
 ## Fine-tuning Step: CR
-Coming Soon.
+Coming Soon
