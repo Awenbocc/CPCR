@@ -25,9 +25,9 @@ python pre-train/main.py \
 ## Fine-tuning Step: CR
 ### For VQA-RAD:
 ```
-bash vqa_rad.sh
+bash med-vqa/vqa_rad.sh
 ```
 ### For Slake:
 ```
-bash slake.sh
+bash med-vqa/slake.sh
 ```
