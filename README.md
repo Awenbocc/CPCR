@@ -11,7 +11,7 @@ git clone https://github.com/Awenbocc/CPCR.git
 (1) The Pre-training dataset can be downloaded from [here](https://drive.google.com/file/d/1vi1bMm_QX8rKdyug40MkG2GPZoAO_QCo/view?usp=sharing)
 
 (2) unzip it to ```dataset``` package
-### Start
+### Training
 ```
 python pre-train/main.py \
   -a resnet50 \
