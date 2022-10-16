@@ -100,7 +100,7 @@ parser.add_argument('--cos', action='store_true',
 
 
 #task detail output
-parser.add_argument('--task', default=None, type=str,
+parser.add_argument('--task', default='pre-train', type=str,
                     help='task name for package')
 parser.add_argument('--time', default=None, type=str,
                     help='task name for package')
