@@ -23,4 +23,11 @@ python pre-train/main.py \
 ```
 
 ## Fine-tuning Step: CR
-Coming Soon
+### For VQA-RAD:
+```
+bash vqa_rad.sh
+```
+### For Slake:
+```
+bash slake.sh
+```
