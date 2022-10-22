@@ -9,8 +9,9 @@ git clone https://github.com/Awenbocc/CPCR.git
 ## Pre-training Step: CP
 ### Dataset
 (1) The Pre-training dataset can be downloaded from [here](https://drive.google.com/file/d/1vi1bMm_QX8rKdyug40MkG2GPZoAO_QCo/view?usp=sharing)
-(2) unzip it to ```dataset``` package
-### Start
+
+(2) unzip it to ```datasets``` package
+### Training
 ```
 python pre-train/main.py \
   -a resnet50 \
@@ -22,4 +23,11 @@ python pre-train/main.py \
 ```
 
 ## Fine-tuning Step: CR
-Coming Soon
+### For VQA-RAD:
+```
+bash med-vqa/vqa_rad.sh
+```
+### For Slake:
+```
+bash med-vqa/slake.sh
+```
