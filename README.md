@@ -22,7 +22,8 @@ python pre-train/main.py \
   /dataset/crd
 ```
 
-## Fine-tuning Step: CR
+## Fine-tuning Step: CR 
+#### (Under review, comming soon...)
 ### For VQA-RAD:
 ```
 bash med-vqa/vqa_rad.sh
