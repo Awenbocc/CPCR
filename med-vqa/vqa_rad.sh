@@ -2,8 +2,6 @@ CUDA_VISIBLE_DEVICES=0 \
 python main.py \
     --dataset rad \
     --attention BAN\
-    --autoencoder \
-    --maml \
     --qcr\
     --tcr\
     --glimpse 2\
