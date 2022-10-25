@@ -288,13 +288,13 @@ def main_worker(gpu, ngpus_per_node, args):
             if avg_acc > top_acc:
                 top_acc = avg_acc
                 top_epoch = epoch
-                if epoch >= 600 :
-                    save_checkpoint({
-                        'epoch': epoch + 1,
-                        'arch': args.arch,
-                        'state_dict': model.state_dict(),
-                        'optimizer' : optimizer.state_dict(),
-                    }, is_best=False, filename= os.path.join(args.time,'checkpoint_{:04d}.pth.tar'.format(epoch)) )
+            if epoch >= 600:
+                save_checkpoint({
+                    'epoch': epoch + 1,
+                    'arch': args.arch,
+                    'state_dict': model.state_dict(),
+                    'optimizer' : optimizer.state_dict(),
+                }, is_best=False, filename= os.path.join(args.time,'checkpoint_{:04d}.pth.tar'.format(epoch)) )
         
         print('------max acc is {}, epoch{}-------'.format(top_acc,top_epoch))
 
