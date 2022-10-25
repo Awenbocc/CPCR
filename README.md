@@ -23,7 +23,7 @@ python pre-train/main.py \
 ```
 
 ## Fine-tuning Step: CR 
-#### (Under review, comming soon...)
+#### (Under review, coming soon...)
 ### For VQA-RAD:
 ```
 bash med-vqa/vqa_rad.sh
