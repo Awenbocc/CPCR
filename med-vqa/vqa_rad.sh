@@ -4,6 +4,5 @@ python main.py \
     --attention BAN\
     --qcr\
     --tcr\
-    --glimpse 2\
     --glimpse_open 2\
     --glimpse_close 1\
