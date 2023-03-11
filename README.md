@@ -37,5 +37,8 @@ bash med-vqa/slake.sh
 ```
 
 
-# CPRD
+# CPRD (Contrastive Pre-training and Representation Distillation for Medical Visual Question Answering Based on Radiology Images)
+## Pre-training Step: Teacher Pre-training and Student Representation Distillation
+
+## Fine-tuning Step: 
 
