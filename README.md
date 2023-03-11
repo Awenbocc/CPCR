@@ -15,7 +15,6 @@ git clone https://github.com/Awenbocc/CPCR.git
 # CPCR
 ## Pre-training Step: CP
 
-### Training
 ```
 python pre-train/main.py \
   -a resnet50 \
@@ -27,7 +26,7 @@ python pre-train/main.py \
 ```
 
 ## Fine-tuning Step: CR 
-#### `2023/01/27`: code checking, coming soon...
+#### `2023/03/01`: code checking, coming soon...
 ### For VQA-RAD:
 ```
 bash med-vqa/vqa_rad.sh
