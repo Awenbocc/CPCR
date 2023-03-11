@@ -1,4 +1,4 @@
-# CPCR
+# CPCR & CPRD
 
 
 ## Code Download
@@ -6,6 +6,8 @@
 git clone https://github.com/Awenbocc/CPCR.git
 ```
 
+
+# CPCR
 ## Pre-training Step: CP
 ### Dataset
 (1) The Pre-training dataset can be downloaded from [here](https://drive.google.com/file/d/1vi1bMm_QX8rKdyug40MkG2GPZoAO_QCo/view?usp=sharing)
@@ -34,5 +36,5 @@ bash med-vqa/slake.sh
 ```
 
 
-# CPRD Part:
+# CPRD
 
